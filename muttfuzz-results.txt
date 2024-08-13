@@ -1,0 +1,418 @@
+<secp256k1_selftest>: NO COVERAGE CHECKS
+<secp256k1_context_preallocated_size>: NO COVERAGE CHECKS
+<secp256k1_context_preallocated_clone_size>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_context_preallocated_create>: NO COVERAGE CHECKS
+<secp256k1_context_create>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_context_preallocated_clone>: NO COVERAGE CHECKS
+<secp256k1_context_clone>: NO COVERAGE CHECKS
+<secp256k1_context_preallocated_destroy>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_context_destroy>: NO COVERAGE CHECKS
+<secp256k1_context_set_illegal_callback>: NO COVERAGE CHECKS
+<secp256k1_context_set_error_callback>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_scratch_space_create>: NO COVERAGE CHECKS
+<secp256k1_scratch_space_destroy>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_pubkey_parse>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_pubkey_serialize>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_pubkey_cmp>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_signature_parse_der>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_signature_parse_compact>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_scalar_set_b32>: NO COVERAGE CHECKS
+<secp256k1_ecdsa_signature_serialize_der>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_signature_serialize_compact>: NO COVERAGE CHECKS
+<secp256k1_ecdsa_signature_normalize>: NO COVERAGE CHECKS
+<secp256k1_ecdsa_verify>: 0.0% COVERAGE (OUT OF 1)
+<nonce_function_rfc6979>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_sign>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_sign_inner>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_seckey_verify>: NO COVERAGE CHECKS
+<secp256k1_ec_pubkey_create>: NO COVERAGE CHECKS
+<secp256k1_ec_seckey_negate>: NO COVERAGE CHECKS
+<secp256k1_ec_pubkey_negate>: NO COVERAGE CHECKS
+<secp256k1_ec_seckey_tweak_add>: NO COVERAGE CHECKS
+<secp256k1_ec_pubkey_tweak_add>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_seckey_tweak_mul>: NO COVERAGE CHECKS
+<secp256k1_ec_pubkey_tweak_mul>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_context_randomize>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ec_pubkey_combine>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_tagged_sha256>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_sha256_write>: NO COVERAGE CHECKS
+<secp256k1_ecdsa_recoverable_signature_parse_compact>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_recoverable_signature_serialize_compact>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_recoverable_signature_convert>: NO COVERAGE CHECKS
+<secp256k1_ecdsa_sign_recoverable>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecdsa_recover>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_xonly_pubkey_parse>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ge_set_xo_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_xonly_pubkey_serialize>: NO COVERAGE CHECKS
+<secp256k1_xonly_pubkey_cmp>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_xonly_pubkey_from_pubkey>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_xonly_pubkey_tweak_add>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_xonly_pubkey_tweak_add_check>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_fe_impl_normalize_var>: NO COVERAGE CHECKS
+<secp256k1_keypair_create>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_keypair_sec>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_keypair_pub>: NO COVERAGE CHECKS
+<secp256k1_keypair_xonly_pub>: NO COVERAGE CHECKS
+<secp256k1_keypair_xonly_tweak_add>: 0.0% COVERAGE (OUT OF 1)
+<nonce_function_bip340>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_schnorrsig_sign_internal>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_schnorrsig_sign_custom>: NO COVERAGE CHECKS
+<secp256k1_schnorrsig_verify>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecmult>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ge_set_gej_var>: NO COVERAGE CHECKS
+<secp256k1_ellswift_encode>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ellswift_elligatorswift_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ellswift_create>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ellswift_decode>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ellswift_xdh>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ellswift_xswiftec_frac_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_der_parse_integer>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_modinv64_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_modinv64_update_de_62>: NO COVERAGE CHECKS
+<secp256k1_rfc6979_hmac_sha256_generate>: NO COVERAGE CHECKS
+<secp256k1_ecmult_gen>: NO COVERAGE CHECKS
+<secp256k1_modinv64>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_fe_sqrt>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecmult_wnaf>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecmult_odd_multiples_table>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ge_table_set_globalz>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_gej_add_ge_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_ecmult_table_get_ge_storage>: NO COVERAGE CHECKS
+<secp256k1_gej_add_zinv_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_fe_impl_inv_var>: 0.0% COVERAGE (OUT OF 1)
+<secp256k1_fe_impl_is_square_var>: 0.0% COVERAGE (OUT OF 1)
+<write_error_with_location>: NO COVERAGE CHECKS
+<__early_forkserver>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_ins_hook2>: NO COVERAGE CHECKS
+<__cmplog_ins_hook4>: NO COVERAGE CHECKS
+<__cmplog_ins_hook8>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_ins_hookN>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_ins_hook16>: NO COVERAGE CHECKS
+<__cmplog_rtn_hook_strn>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_rtn_hook_str>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_rtn_hook>: NO COVERAGE CHECKS
+<__cmplog_rtn_gcc_stdstring_cstring>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_rtn_gcc_stdstring_stdstring>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_rtn_llvm_stdstring_cstring>: 0.0% COVERAGE (OUT OF 1)
+<__cmplog_rtn_llvm_stdstring_stdstring>: 0.0% COVERAGE (OUT OF 1)
+<at_exit>: NO COVERAGE CHECKS
+<__decide_deferred_forkserver>: NO COVERAGE CHECKS
+<main>: 50.0% COVERAGE (OUT OF 2)
+<ExecuteFilesOnyByOne>: 100.0% COVERAGE (OUT OF 2)
+<CSHA256::Write(unsigned char const*, unsigned long)>: NO COVERAGE CHECKS
+<(anonymous namespace)::sha256::Transform(unsigned int*, unsigned char const*, unsigned long)>: NO COVERAGE CHECKS
+<CSHA256::Finalize(unsigned char*)>: NO COVERAGE CHECKS
+<CScriptWitness::~CScriptWitness()>: 66.67% COVERAGE (OUT OF 3)
+<prevector<28u, unsigned char, unsigned int, int>::change_capacity(unsigned int)>: NO COVERAGE CHECKS
+<void SerializeTransaction<ParamsStream<TransactionSerParams, HashWriter>, CTransaction>(CTransaction const&, ParamsStream<TransactionSerParams, HashWriter>&, TransactionSerParams const&)>: 100.0% COVERAGE (OUT OF 6)
+<void WriteCompactSize<ParamsStream<TransactionSerParams, HashWriter> >(ParamsStream<TransactionSerParams, HashWriter>&, unsigned long)>: NO COVERAGE CHECKS
+<void SerializeMany<ParamsStream<TransactionSerParams, HashWriter>, COutPoint, CScript, unsigned int>(ParamsStream<TransactionSerParams, HashWriter>&, COutPoint const&, CScript const&, unsigned int const&)>: 100.0% COVERAGE (OUT OF 1)
+<bitcoinconsensus_verify_script_with_amount>: 100.0% COVERAGE (OUT OF 2)
+<verify_script(unsigned char const*, unsigned int, long, unsigned char const*, unsigned int, UTXO const*, unsigned int, unsigned int, unsigned int, bitcoinconsensus_error_t*)>: 69.64% COVERAGE (OUT OF 56)
+<(anonymous namespace)::TxInputStream::read(Span<std::byte>)>: 20.0% COVERAGE (OUT OF 5)
+<unsigned long ReadCompactSize<(anonymous namespace)::TxInputStream>((anonymous namespace)::TxInputStream&, bool)>: 100.0% COVERAGE (OUT OF 1)
+<CMutableTransaction::~CMutableTransaction()>: NO COVERAGE CHECKS
+<PrecomputedTransactionData::~PrecomputedTransactionData()>: 0.0% COVERAGE (OUT OF 1)
+<CTransaction::~CTransaction()>: 0.0% COVERAGE (OUT OF 1)
+<BaseSignatureChecker::~BaseSignatureChecker()>: 0.0% COVERAGE (OUT OF 1)
+<GenericTransactionSignatureChecker<CTransaction>::~GenericTransactionSignatureChecker()>: NO COVERAGE CHECKS
+<void Unserialize<(anonymous namespace)::TxInputStream, CScript&>((anonymous namespace)::TxInputStream&, CScript&) requires Unserializable<CScript&, (anonymous namespace)::TxInputStream>>: 100.0% COVERAGE (OUT OF 2)
+<_GLOBAL__sub_I_interpreter.cpp>: 100.0% COVERAGE (OUT OF 3)
+<_GLOBAL__sub_I_pubkey.cpp>: NO COVERAGE CHECKS
+<_GLOBAL__sub_I_strencodings.cpp>: 100.0% COVERAGE (OUT OF 1)
+<CastToBool(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% COVERAGE (OUT OF 1)
+<CheckSignatureEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, ScriptError_t*)>: 25.0% COVERAGE (OUT OF 4)
+<IsValidSignatureEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% COVERAGE (OUT OF 3)
+<FindAndDelete(CScript&, CScript const&)>: 100.0% COVERAGE (OUT OF 4)
+<void prevector<28u, unsigned char, unsigned int, int>::insert<prevector<28u, unsigned char, unsigned int, int>::const_iterator>(prevector<28u, unsigned char, unsigned int, int>::iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator)>: 100.0% COVERAGE (OUT OF 2)
+<EvalScript(std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >&, CScript const&, unsigned int, BaseSignatureChecker const&, SigVersion, ScriptExecutionData&, ScriptError_t*)>: 60.0% COVERAGE (OUT OF 50)
+<CScriptNum::serialize(long const&)>: 80.0% COVERAGE (OUT OF 5)
+<CScriptNum::CScriptNum(std::vector<unsigned char, std::allocator<unsigned char> > const&, bool, unsigned long)>: 57.14% COVERAGE (OUT OF 7)
+<popstack(std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >&)>: 100.0% COVERAGE (OUT OF 1)
+<(anonymous namespace)::ConditionStack::toggle_top()>: 100.0% COVERAGE (OUT OF 1)
+<CScriptNum::operator+=(CScriptNum const&)>: 100.0% COVERAGE (OUT OF 2)
+<CScriptNum::operator-=(CScriptNum const&)>: 100.0% COVERAGE (OUT OF 2)
+<CHash160::Finalize(Span<unsigned char>)>: NO COVERAGE CHECKS
+<CHash256::Finalize(Span<unsigned char>)>: 100.0% COVERAGE (OUT OF 1)
+<EvalChecksig(std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator, ScriptExecutionData&, unsigned int, BaseSignatureChecker const&, SigVersion, ScriptError_t*, bool&)>: 57.14% COVERAGE (OUT OF 7)
+<CScript::CScript(prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator)>: 100.0% COVERAGE (OUT OF 2)
+<CScript::operator<<(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% COVERAGE (OUT OF 2)
+<CheckPubKeyEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, SigVersion const&, ScriptError_t*)>: 0.0% COVERAGE (OUT OF 2)
+<scriptnum_error::~scriptnum_error()>: NO COVERAGE CHECKS
+<uint256 (anonymous namespace)::GetOutputsSHA256<CTransaction>(CTransaction const&)>: 100.0% COVERAGE (OUT OF 1)
+<void WriteCompactSize<HashWriter>(HashWriter&, unsigned long)>: 100.0% COVERAGE (OUT OF 1)
+<GenericTransactionSignatureChecker<CTransaction>::VerifyECDSASignature(std::vector<unsigned char, std::allocator<unsigned char> > const&, CPubKey const&, uint256 const&) const>: 0.0% COVERAGE (OUT OF 1)
+<GenericTransactionSignatureChecker<CTransaction>::VerifySchnorrSignature(Span<unsigned char const>, XOnlyPubKey const&, uint256 const&) const>: NO COVERAGE CHECKS
+<GenericTransactionSignatureChecker<CTransaction>::CheckECDSASignature(std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, CScript const&, SigVersion) const>: 25.0% COVERAGE (OUT OF 20)
+<GenericTransactionSignatureChecker<CTransaction>::CheckSchnorrSignature(Span<unsigned char const>, Span<unsigned char const>, SigVersion, ScriptExecutionData&, ScriptError_t*) const>: 0.0% COVERAGE (OUT OF 1)
+<GenericTransactionSignatureChecker<CTransaction>::CheckLockTime(CScriptNum const&) const>: 100.0% COVERAGE (OUT OF 2)
+<GenericTransactionSignatureChecker<CTransaction>::CheckSequence(CScriptNum const&) const>: 100.0% COVERAGE (OUT OF 1)
+<ComputeTapleafHash(unsigned char, Span<unsigned char const>)>: NO COVERAGE CHECKS
+<VerifyWitnessProgram(CScriptWitness const&, int, std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, BaseSignatureChecker const&, ScriptError_t*, bool)>: 37.5% COVERAGE (OUT OF 8)
+<CScript::CScript(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >)>: 0.0% COVERAGE (OUT OF 1)
+<prevector<28u, unsigned char, unsigned int, int>::operator!=(prevector<28u, unsigned char, unsigned int, int> const&) const>: 0.0% COVERAGE (OUT OF 1)
+<ExecuteWitnessScript(Span<std::vector<unsigned char, std::allocator<unsigned char> > const> const&, CScript const&, unsigned int, SigVersion, BaseSignatureChecker const&, ScriptExecutionData&, ScriptError_t*)>: 0.0% COVERAGE (OUT OF 1)
+<CRIPEMD160::Write(unsigned char const*, unsigned long)>: 100.0% COVERAGE (OUT OF 1)
+<(anonymous namespace)::ripemd160::Transform(unsigned int*, unsigned char const*)>: NO COVERAGE CHECKS
+<CRIPEMD160::Finalize(unsigned char*)>: NO COVERAGE CHECKS
+<CSHA1::Write(unsigned char const*, unsigned long)>: 100.0% COVERAGE (OUT OF 1)
+<(anonymous namespace)::sha1::Transform(unsigned int*, unsigned char const*)>: NO COVERAGE CHECKS
+<CSHA1::Finalize(unsigned char*)>: 100.0% COVERAGE (OUT OF 1)
+<SHA256Uint256(uint256 const&)>: NO COVERAGE CHECKS
+<TaggedHash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>: NO COVERAGE CHECKS
+<ecdsa_signature_parse_der_lax(secp256k1_ecdsa_signature*, unsigned char const*, unsigned long)>: 0.0% COVERAGE (OUT OF 1)
+<CScript::IsPayToScriptHash() const>: 0.0% COVERAGE (OUT OF 1)
+<CScript::IsWitnessProgram(int&, std::vector<unsigned char, std::allocator<unsigned char> >&) const>: 0.0% COVERAGE (OUT OF 1)
+<CScript::IsPushOnly() const>: 0.0% COVERAGE (OUT OF 1)
+<GetScriptOp(prevector<28u, unsigned char, unsigned int, int>::const_iterator&, prevector<28u, unsigned char, unsigned int, int>::const_iterator, opcodetype&, std::vector<unsigned char, std::allocator<unsigned char> >*)>: 100.0% COVERAGE (OUT OF 11)
+
+
+<secp256k1_selftest>: NO MUTANTS EXECUTED
+<secp256k1_context_preallocated_size>: NO MUTANTS EXECUTED
+<secp256k1_context_preallocated_clone_size>: NO MUTANTS EXECUTED
+<secp256k1_context_preallocated_create>: NO MUTANTS EXECUTED
+<secp256k1_context_create>: NO MUTANTS EXECUTED
+<secp256k1_context_preallocated_clone>: NO MUTANTS EXECUTED
+<secp256k1_context_clone>: NO MUTANTS EXECUTED
+<secp256k1_context_preallocated_destroy>: NO MUTANTS EXECUTED
+<secp256k1_context_destroy>: NO MUTANTS EXECUTED
+<secp256k1_context_set_illegal_callback>: NO MUTANTS EXECUTED
+<secp256k1_context_set_error_callback>: NO MUTANTS EXECUTED
+<secp256k1_scratch_space_create>: NO MUTANTS EXECUTED
+<secp256k1_scratch_space_destroy>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_parse>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_serialize>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_cmp>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_signature_parse_der>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_signature_parse_compact>: NO MUTANTS EXECUTED
+<secp256k1_scalar_set_b32>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_signature_serialize_der>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_signature_serialize_compact>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_signature_normalize>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_verify>: NO MUTANTS EXECUTED
+<nonce_function_rfc6979>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_sign>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_sign_inner>: NO MUTANTS EXECUTED
+<secp256k1_ec_seckey_verify>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_create>: NO MUTANTS EXECUTED
+<secp256k1_ec_seckey_negate>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_negate>: NO MUTANTS EXECUTED
+<secp256k1_ec_seckey_tweak_add>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_tweak_add>: NO MUTANTS EXECUTED
+<secp256k1_ec_seckey_tweak_mul>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_tweak_mul>: NO MUTANTS EXECUTED
+<secp256k1_context_randomize>: NO MUTANTS EXECUTED
+<secp256k1_ec_pubkey_combine>: NO MUTANTS EXECUTED
+<secp256k1_tagged_sha256>: NO MUTANTS EXECUTED
+<secp256k1_sha256_write>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_recoverable_signature_parse_compact>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_recoverable_signature_serialize_compact>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_recoverable_signature_convert>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_sign_recoverable>: NO MUTANTS EXECUTED
+<secp256k1_ecdsa_recover>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_parse>: NO MUTANTS EXECUTED
+<secp256k1_ge_set_xo_var>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_serialize>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_cmp>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_from_pubkey>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_tweak_add>: NO MUTANTS EXECUTED
+<secp256k1_xonly_pubkey_tweak_add_check>: NO MUTANTS EXECUTED
+<secp256k1_fe_impl_normalize_var>: NO MUTANTS EXECUTED
+<secp256k1_keypair_create>: NO MUTANTS EXECUTED
+<secp256k1_keypair_sec>: NO MUTANTS EXECUTED
+<secp256k1_keypair_pub>: NO MUTANTS EXECUTED
+<secp256k1_keypair_xonly_pub>: NO MUTANTS EXECUTED
+<secp256k1_keypair_xonly_tweak_add>: NO MUTANTS EXECUTED
+<nonce_function_bip340>: NO MUTANTS EXECUTED
+<secp256k1_schnorrsig_sign_internal>: NO MUTANTS EXECUTED
+<secp256k1_schnorrsig_sign_custom>: NO MUTANTS EXECUTED
+<secp256k1_schnorrsig_verify>: NO MUTANTS EXECUTED
+<secp256k1_ecmult>: NO MUTANTS EXECUTED
+<secp256k1_ge_set_gej_var>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_encode>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_elligatorswift_var>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_create>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_decode>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_xdh>: NO MUTANTS EXECUTED
+<secp256k1_ellswift_xswiftec_frac_var>: NO MUTANTS EXECUTED
+<secp256k1_der_parse_integer>: NO MUTANTS EXECUTED
+<secp256k1_modinv64_var>: NO MUTANTS EXECUTED
+<secp256k1_modinv64_update_de_62>: NO MUTANTS EXECUTED
+<secp256k1_rfc6979_hmac_sha256_generate>: NO MUTANTS EXECUTED
+<secp256k1_ecmult_gen>: NO MUTANTS EXECUTED
+<secp256k1_modinv64>: NO MUTANTS EXECUTED
+<secp256k1_fe_sqrt>: NO MUTANTS EXECUTED
+<secp256k1_ecmult_wnaf>: NO MUTANTS EXECUTED
+<secp256k1_ecmult_odd_multiples_table>: NO MUTANTS EXECUTED
+<secp256k1_ge_table_set_globalz>: NO MUTANTS EXECUTED
+<secp256k1_gej_add_ge_var>: NO MUTANTS EXECUTED
+<secp256k1_ecmult_table_get_ge_storage>: NO MUTANTS EXECUTED
+<secp256k1_gej_add_zinv_var>: NO MUTANTS EXECUTED
+<secp256k1_fe_impl_inv_var>: NO MUTANTS EXECUTED
+<secp256k1_fe_impl_is_square_var>: NO MUTANTS EXECUTED
+<write_error_with_location>: NO MUTANTS EXECUTED
+<__early_forkserver>: NO MUTANTS EXECUTED
+<__cmplog_ins_hook2>: NO MUTANTS EXECUTED
+<__cmplog_ins_hook4>: NO MUTANTS EXECUTED
+<__cmplog_ins_hook8>: NO MUTANTS EXECUTED
+<__cmplog_ins_hookN>: NO MUTANTS EXECUTED
+<__cmplog_ins_hook16>: NO MUTANTS EXECUTED
+<__cmplog_rtn_hook_strn>: NO MUTANTS EXECUTED
+<__cmplog_rtn_hook_str>: NO MUTANTS EXECUTED
+<__cmplog_rtn_hook>: NO MUTANTS EXECUTED
+<__cmplog_rtn_gcc_stdstring_cstring>: NO MUTANTS EXECUTED
+<__cmplog_rtn_gcc_stdstring_stdstring>: NO MUTANTS EXECUTED
+<__cmplog_rtn_llvm_stdstring_cstring>: NO MUTANTS EXECUTED
+<__cmplog_rtn_llvm_stdstring_stdstring>: NO MUTANTS EXECUTED
+<at_exit>: NO MUTANTS EXECUTED
+<__decide_deferred_forkserver>: NO MUTANTS EXECUTED
+<main>: 100.0% MUTATION SCORE (OUT OF 1)
+<ExecuteFilesOnyByOne>: 100.0% MUTATION SCORE (OUT OF 2)
+<CSHA256::Write(unsigned char const*, unsigned long)>: NO MUTANTS EXECUTED
+<(anonymous namespace)::sha256::Transform(unsigned int*, unsigned char const*, unsigned long)>: NO MUTANTS EXECUTED
+<CSHA256::Finalize(unsigned char*)>: NO MUTANTS EXECUTED
+<CScriptWitness::~CScriptWitness()>: 100.0% MUTATION SCORE (OUT OF 2)
+<prevector<28u, unsigned char, unsigned int, int>::change_capacity(unsigned int)>: NO MUTANTS EXECUTED
+<void SerializeTransaction<ParamsStream<TransactionSerParams, HashWriter>, CTransaction>(CTransaction const&, ParamsStream<TransactionSerParams, HashWriter>&, TransactionSerParams const&)>: 100.0% MUTATION SCORE (OUT OF 6)
+<void WriteCompactSize<ParamsStream<TransactionSerParams, HashWriter> >(ParamsStream<TransactionSerParams, HashWriter>&, unsigned long)>: NO MUTANTS EXECUTED
+<void SerializeMany<ParamsStream<TransactionSerParams, HashWriter>, COutPoint, CScript, unsigned int>(ParamsStream<TransactionSerParams, HashWriter>&, COutPoint const&, CScript const&, unsigned int const&)>: 100.0% MUTATION SCORE (OUT OF 1)
+<bitcoinconsensus_verify_script_with_amount>: 100.0% MUTATION SCORE (OUT OF 2)
+<verify_script(unsigned char const*, unsigned int, long, unsigned char const*, unsigned int, UTXO const*, unsigned int, unsigned int, unsigned int, bitcoinconsensus_error_t*)>: 100.0% MUTATION SCORE (OUT OF 39)
+<(anonymous namespace)::TxInputStream::read(Span<std::byte>)>: 100.0% MUTATION SCORE (OUT OF 1)
+<unsigned long ReadCompactSize<(anonymous namespace)::TxInputStream>((anonymous namespace)::TxInputStream&, bool)>: 100.0% MUTATION SCORE (OUT OF 1)
+<CMutableTransaction::~CMutableTransaction()>: NO MUTANTS EXECUTED
+<PrecomputedTransactionData::~PrecomputedTransactionData()>: NO MUTANTS EXECUTED
+<CTransaction::~CTransaction()>: NO MUTANTS EXECUTED
+<BaseSignatureChecker::~BaseSignatureChecker()>: NO MUTANTS EXECUTED
+<GenericTransactionSignatureChecker<CTransaction>::~GenericTransactionSignatureChecker()>: NO MUTANTS EXECUTED
+<void Unserialize<(anonymous namespace)::TxInputStream, CScript&>((anonymous namespace)::TxInputStream&, CScript&) requires Unserializable<CScript&, (anonymous namespace)::TxInputStream>>: 100.0% MUTATION SCORE (OUT OF 2)
+<_GLOBAL__sub_I_interpreter.cpp>: 100.0% MUTATION SCORE (OUT OF 3)
+<_GLOBAL__sub_I_pubkey.cpp>: NO MUTANTS EXECUTED
+<_GLOBAL__sub_I_strencodings.cpp>: 100.0% MUTATION SCORE (OUT OF 1)
+<CastToBool(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% MUTATION SCORE (OUT OF 1)
+<CheckSignatureEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, ScriptError_t*)>: 100.0% MUTATION SCORE (OUT OF 1)
+<IsValidSignatureEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% MUTATION SCORE (OUT OF 3)
+<FindAndDelete(CScript&, CScript const&)>: 100.0% MUTATION SCORE (OUT OF 4)
+<void prevector<28u, unsigned char, unsigned int, int>::insert<prevector<28u, unsigned char, unsigned int, int>::const_iterator>(prevector<28u, unsigned char, unsigned int, int>::iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator)>: 100.0% MUTATION SCORE (OUT OF 2)
+<EvalScript(std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >&, CScript const&, unsigned int, BaseSignatureChecker const&, SigVersion, ScriptExecutionData&, ScriptError_t*)>: 100.0% MUTATION SCORE (OUT OF 30)
+<CScriptNum::serialize(long const&)>: 100.0% MUTATION SCORE (OUT OF 4)
+<CScriptNum::CScriptNum(std::vector<unsigned char, std::allocator<unsigned char> > const&, bool, unsigned long)>: 100.0% MUTATION SCORE (OUT OF 4)
+<popstack(std::vector<std::vector<unsigned char, std::allocator<unsigned char> >, std::allocator<std::vector<unsigned char, std::allocator<unsigned char> > > >&)>: 100.0% MUTATION SCORE (OUT OF 1)
+<(anonymous namespace)::ConditionStack::toggle_top()>: 100.0% MUTATION SCORE (OUT OF 1)
+<CScriptNum::operator+=(CScriptNum const&)>: 100.0% MUTATION SCORE (OUT OF 2)
+<CScriptNum::operator-=(CScriptNum const&)>: 100.0% MUTATION SCORE (OUT OF 2)
+<CHash160::Finalize(Span<unsigned char>)>: NO MUTANTS EXECUTED
+<CHash256::Finalize(Span<unsigned char>)>: 100.0% MUTATION SCORE (OUT OF 1)
+<EvalChecksig(std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator, ScriptExecutionData&, unsigned int, BaseSignatureChecker const&, SigVersion, ScriptError_t*, bool&)>: 100.0% MUTATION SCORE (OUT OF 4)
+<CScript::CScript(prevector<28u, unsigned char, unsigned int, int>::const_iterator, prevector<28u, unsigned char, unsigned int, int>::const_iterator)>: 100.0% MUTATION SCORE (OUT OF 2)
+<CScript::operator<<(std::vector<unsigned char, std::allocator<unsigned char> > const&)>: 100.0% MUTATION SCORE (OUT OF 2)
+<CheckPubKeyEncoding(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, SigVersion const&, ScriptError_t*)>: NO MUTANTS EXECUTED
+<scriptnum_error::~scriptnum_error()>: NO MUTANTS EXECUTED
+<uint256 (anonymous namespace)::GetOutputsSHA256<CTransaction>(CTransaction const&)>: 100.0% MUTATION SCORE (OUT OF 1)
+<void WriteCompactSize<HashWriter>(HashWriter&, unsigned long)>: 100.0% MUTATION SCORE (OUT OF 1)
+<GenericTransactionSignatureChecker<CTransaction>::VerifyECDSASignature(std::vector<unsigned char, std::allocator<unsigned char> > const&, CPubKey const&, uint256 const&) const>: NO MUTANTS EXECUTED
+<GenericTransactionSignatureChecker<CTransaction>::VerifySchnorrSignature(Span<unsigned char const>, XOnlyPubKey const&, uint256 const&) const>: NO MUTANTS EXECUTED
+<GenericTransactionSignatureChecker<CTransaction>::CheckECDSASignature(std::vector<unsigned char, std::allocator<unsigned char> > const&, std::vector<unsigned char, std::allocator<unsigned char> > const&, CScript const&, SigVersion) const>: 100.0% MUTATION SCORE (OUT OF 5)
+<GenericTransactionSignatureChecker<CTransaction>::CheckSchnorrSignature(Span<unsigned char const>, Span<unsigned char const>, SigVersion, ScriptExecutionData&, ScriptError_t*) const>: NO MUTANTS EXECUTED
+<GenericTransactionSignatureChecker<CTransaction>::CheckLockTime(CScriptNum const&) const>: 100.0% MUTATION SCORE (OUT OF 2)
+<GenericTransactionSignatureChecker<CTransaction>::CheckSequence(CScriptNum const&) const>: 100.0% MUTATION SCORE (OUT OF 1)
+<ComputeTapleafHash(unsigned char, Span<unsigned char const>)>: NO MUTANTS EXECUTED
+<VerifyWitnessProgram(CScriptWitness const&, int, std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned int, BaseSignatureChecker const&, ScriptError_t*, bool)>: 100.0% MUTATION SCORE (OUT OF 3)
+<CScript::CScript(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >)>: NO MUTANTS EXECUTED
+<prevector<28u, unsigned char, unsigned int, int>::operator!=(prevector<28u, unsigned char, unsigned int, int> const&) const>: NO MUTANTS EXECUTED
+<ExecuteWitnessScript(Span<std::vector<unsigned char, std::allocator<unsigned char> > const> const&, CScript const&, unsigned int, SigVersion, BaseSignatureChecker const&, ScriptExecutionData&, ScriptError_t*)>: NO MUTANTS EXECUTED
+<CRIPEMD160::Write(unsigned char const*, unsigned long)>: 100.0% MUTATION SCORE (OUT OF 1)
+<(anonymous namespace)::ripemd160::Transform(unsigned int*, unsigned char const*)>: NO MUTANTS EXECUTED
+<CRIPEMD160::Finalize(unsigned char*)>: NO MUTANTS EXECUTED
+<CSHA1::Write(unsigned char const*, unsigned long)>: 100.0% MUTATION SCORE (OUT OF 1)
+<(anonymous namespace)::sha1::Transform(unsigned int*, unsigned char const*)>: NO MUTANTS EXECUTED
+<CSHA1::Finalize(unsigned char*)>: 100.0% MUTATION SCORE (OUT OF 1)
+<SHA256Uint256(uint256 const&)>: NO MUTANTS EXECUTED
+<TaggedHash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>: NO MUTANTS EXECUTED
+<ecdsa_signature_parse_der_lax(secp256k1_ecdsa_signature*, unsigned char const*, unsigned long)>: NO MUTANTS EXECUTED
+<CScript::IsPayToScriptHash() const>: NO MUTANTS EXECUTED
+<CScript::IsWitnessProgram(int&, std::vector<unsigned char, std::allocator<unsigned char> >&) const>: NO MUTANTS EXECUTED
+<CScript::IsPushOnly() const>: NO MUTANTS EXECUTED
+<GetScriptOp(prevector<28u, unsigned char, unsigned int, int>::const_iterator&, prevector<28u, unsigned char, unsigned int, int>::const_iterator, opcodetype&, std::vector<unsigned char, std::allocator<unsigned char> >*)>: 100.0% MUTATION SCORE (OUT OF 11)
+
+
+** FUNCTION <secp256k1_der_parse_integer> WITH 14 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_hook_strn> WITH 14 BRANCHES UNREACHABLE **
+** FUNCTION <GenericTransactionSignatureChecker<CTransaction>::CheckSchnorrSignature(Span<unsigned char const>, Span<unsigned char const>, SigVersion, ScriptExecutionData&, ScriptError_t*) const> WITH 36 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_signature_parse_der> WITH 17 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_decode> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_xswiftec_frac_var> WITH 12 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_ins_hookN> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <CTransaction::~CTransaction()> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_xdh> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <ecdsa_signature_parse_der_lax(secp256k1_ecdsa_signature*, unsigned char const*, unsigned long)> WITH 33 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_signature_serialize_der> WITH 9 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_gcc_stdstring_stdstring> WITH 7 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_scratch_space_destroy> WITH 9 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_gej_add_zinv_var> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ge_table_set_globalz> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <CScript::CScript(__gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char const*, std::vector<unsigned char, std::allocator<unsigned char> > >)> WITH 6 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_schnorrsig_verify> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ge_set_xo_var> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_recover> WITH 11 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_parse> WITH 17 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_llvm_stdstring_cstring> WITH 8 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_gej_add_ge_var> WITH 14 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_signature_parse_compact> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_sign_recoverable> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_context_create> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_tweak_add> WITH 5 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_modinv64_var> WITH 13 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_cmp> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_encode> WITH 8 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_llvm_stdstring_stdstring> WITH 9 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_combine> WITH 8 BRANCHES UNREACHABLE **
+** FUNCTION <ExecuteWitnessScript(Span<std::vector<unsigned char, std::allocator<unsigned char> > const> const&, CScript const&, unsigned int, SigVersion, BaseSignatureChecker const&, ScriptExecutionData&, ScriptError_t*)> WITH 37 BRANCHES UNREACHABLE **
+** FUNCTION <nonce_function_bip340> WITH 18 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_create> WITH 7 BRANCHES UNREACHABLE **
+** FUNCTION <nonce_function_rfc6979> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_serialize> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_fe_sqrt> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_verify> WITH 12 BRANCHES UNREACHABLE **
+** FUNCTION <prevector<28u, unsigned char, unsigned int, int>::operator!=(prevector<28u, unsigned char, unsigned int, int> const&) const> WITH 6 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_context_randomize> WITH 2 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_sign> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_gcc_stdstring_cstring> WITH 7 BRANCHES UNREACHABLE **
+** FUNCTION <GenericTransactionSignatureChecker<CTransaction>::VerifyECDSASignature(std::vector<unsigned char, std::allocator<unsigned char> > const&, CPubKey const&, uint256 const&) const> WITH 7 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_xonly_pubkey_from_pubkey> WITH 5 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ec_pubkey_tweak_mul> WITH 5 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_xonly_pubkey_tweak_add> WITH 6 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecmult_odd_multiples_table> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_fe_impl_is_square_var> WITH 14 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_xonly_pubkey_cmp> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecmult_wnaf> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ellswift_elligatorswift_var> WITH 18 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_tagged_sha256> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_keypair_xonly_tweak_add> WITH 9 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_schnorrsig_sign_internal> WITH 12 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_keypair_create> WITH 4 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_context_preallocated_destroy> WITH 2 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_modinv64> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_xonly_pubkey_tweak_add_check> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <CScript::IsPushOnly() const> WITH 8 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_xonly_pubkey_parse> WITH 5 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_recoverable_signature_parse_compact> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_context_preallocated_clone_size> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_sign_inner> WITH 10 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecdsa_recoverable_signature_serialize_compact> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_context_set_error_callback> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_fe_impl_inv_var> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_ecmult> WITH 25 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_rtn_hook_str> WITH 7 BRANCHES UNREACHABLE **
+** FUNCTION <__cmplog_ins_hook8> WITH 3 BRANCHES UNREACHABLE **
+** FUNCTION <PrecomputedTransactionData::~PrecomputedTransactionData()> WITH 5 BRANCHES UNREACHABLE **
+** FUNCTION <BaseSignatureChecker::~BaseSignatureChecker()> WITH 1 BRANCHES UNREACHABLE **
+** FUNCTION <secp256k1_keypair_sec> WITH 2 BRANCHES UNREACHABLE **
+
+TOTAL OF 72 FUNCTIONS WITH 597 BRANCHES ARE UNREACHABLE
+
+FINAL COVERAGE OVER 302 MUTANTS: 50.33%
+FINAL MUTATION SCORE OVER 152 EXECUTED MUTANTS: 100.0%
+MAXIMUM VISITS TO A MUTANT: 1
+MEAN VISITS TO A MUTANT: 1.0
+MEAN TIME FOR MUTANT EVALUATION: 21.49 SECONDS
